@@ -2718,22 +2718,16 @@ input, select, textarea {
 
 			/*My TESTS*/
 			body:not(.is-touch) .tiles article.style4:hover > .image {
-				-moz-transform: scale(1.5);
-				-webkit-transform: scale(1.5);
-				-ms-transform: scale(1.5);
-				transform: scale(1.5);
+				-moz-transform: scale(1.0);
+				-webkit-transform: scale(1.0);
+				-ms-transform: scale(1.0);
+				transform: scale(1.0);
 			}
-			.tiles article.style4 > a .content {
-					-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
-					-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
-					-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
-					transition: max-height 0.5s ease, opacity 0.5s ease;
-					width: 100%;
-					max-height: 0;
-					line-height: 1.5;
-					margin-top: 0.0em;
-					opacity: 0;
-				}
+
+			body:not(.is-touch) .tiles article.style4:hover .content {
+				max-height: 0em;
+				opacity: 1;
+			}
 			/*END MY TESTS*/
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
