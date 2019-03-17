@@ -2698,7 +2698,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #F8CCAC;
+				background-color: #f8ccac;
 			}
 
 			.tiles article.style5 > .image:before {
@@ -2728,6 +2728,7 @@ input, select, textarea {
 				max-height: 15em;
 				opacity: 1;
 			}
+
 			/*END MY TESTS*/
 
 			body:not(.is-touch) .tiles article:hover > .image:before {
