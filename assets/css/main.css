@@ -2728,10 +2728,10 @@ input, select, textarea {
 
 			/*My TESTS*/
 			body:not(.is-touch) .tiles article.style4:hover > .image {
-				-moz-transform: scale(2.0);
-				-webkit-transform: scale(2.0);
-				-ms-transform: scale(2.0);
-				transform: scale(2.0);
+				-moz-transform: scale(1.5);
+				-webkit-transform: scale(1.5);
+				-ms-transform: scale(1.5);
+				transform: scale(1.5);
 			}
 
 
